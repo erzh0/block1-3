@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>menu</title>
+</head>
+<body>
+    <button class="navigate__menu button" onclick="myOpenFunction()"></button>  
+
+    <div class="menu-box" id="myId">
+        <header class="menu-box__header">
+            <button class="menu-close button" onclick="myCloseFunction()"></button>
+            <a class="header__icon">
+                <img src="img/body-img/logo.png" alt="logo">
+            </a>
+            <button class="menu-search button"></button>
+        </header>
+        <nav>
+            <ul class="menu-box__list">
+                <li class="menu-box__items"><a href="/" class="menu-box__item_active">Ремонт техники</a></li>
+                <li class="menu-box__items"><a href="/" class="">Услуги и сервисы</a></li>
+                <li class="menu-box__items"><a href="/" class="">Корпоративным клиент</a></li>
+                <li class="menu-box__items"><a href="/" class="">Продавцам техники</a></li>
+                <li class="menu-box__items"><a href="/" class="">Партнерам</a></li>
+                <li class="menu-box__items"><a href="/" class="">Производителям</a></li>
+                <li class="menu-box__items"><a href="/" class="">Наши сервисные центр</a></li>
+                <li class="menu-box__items"><a href="/" class="">Контакты</a></li>
+            </ul>
+        </nav>
+        <footer class="manu-box__footer">
+            <div class="menu-contact__icons">
+                <button class="header__phone button"></button>
+                <button class="header__chat button"></button>
+                <button class="header__profile button"></button>
+            </div>
+            <div class="menu-contact__letter">
+                <a class="menu__mail" href="mailto:mail@cps.com">mail@cps.com</a>
+                <br>
+                <a class="menu__tell" href="tel:88008908900">8&nbsp;800&nbsp;890&nbsp;8900</a>
+            </div>
+            <div class="lang">
+                <a href="/ru" class="lang__link lang__link_active">ru</a>
+                <a href="/en" class="lang__link">en</a>
+                <a href="/ch" class="lang__link">ch</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
